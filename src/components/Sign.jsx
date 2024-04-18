@@ -31,7 +31,7 @@ const Sign = () => {
         </div>
         {/* sign up from  */}
         <div className="w-8/12">
-          <div className="-mt-2 ">
+          <div className="">
             <h1 className="font-semibold text-right mr-3">
               Already a member
               <Link to="/login" className="underline font-extrabold ml-2">
@@ -92,7 +92,7 @@ const Sign = () => {
             <div className="">
               <input type="checkbox" className="checkbox checkbox-md mt-3" />
               <span className="ml-3">
-                Creating an account means you're okay with our{" "}
+                Creating an account means you okay with our{" "}
                 <span className="font-extrabold">
                   Terms of Service. Privacy Policy
                 </span>
@@ -109,15 +109,14 @@ const Sign = () => {
                 />
               </label>
             </div>
-            <div className="">
-              <input type="checkbox" className="checkbox checkbox-md mt-3" />
-              <span className="ml-3">
-                Creating an account means you're okay with our{" "}
+            <div className="my-4">
+              <span className="mt-2">
+                This site is protected by re
                 <span className="font-extrabold">
-                  Terms of Service. Privacy Policy
-                </span>
-                , and our default{" "}
-                <span className="font-extrabold">Notification Settings</span>{" "}
+                  CAPTCHA and the Google Privacy Policy
+                </span>{" "}
+                , and our default {" "}
+                <span className="font-extrabold">Notification Settings</span>
               </span>
             </div>
           </div>
